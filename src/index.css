@@ -1,6 +1,36 @@
 @import 'tailwindcss';
 
 @theme {
-  --font-sans: 'Noto Sans Arabic Variable', ui-sans-serif, system-ui, sans-serif,
-    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  --font-sans:
+    'LamaSans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+@font-face {
+  font-family: 'LamaSans';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('./assets/fonts/lama/LamaSans-light.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'LamaSans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('./assets/fonts/lama/LamaSans-Regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'LamaSans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('./assets/fonts/lama/LamaSans-Bold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'LamaSans';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url('./assets/fonts/lama/LamaSans-Black.woff2') format('woff2');
 }

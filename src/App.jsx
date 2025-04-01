@@ -10,12 +10,12 @@ export function App() {
           className='mx-auto h-28 w-auto'
         />
 
-        <p className='mt-0 max-w-2xl text-sm/8 text-pretty text-gray-700'>
+        <p className='mt-0 max-w-2xl text-sm/8 font-bold text-pretty text-gray-500'>
           مبادرة أثر من طرف{' '}
           <a
             href='https://ghaytcharity.com/'
             target='_blank'
-            className='text-gray-800 underline underline-offset-4 transition-colors hover:text-gray-950'
+            className='text-gray-600 underline underline-offset-4 transition-colors hover:text-gray-800'
           >
             جمعية غيت الخيرية
           </a>
