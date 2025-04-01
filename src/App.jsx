@@ -1,35 +1,26 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import '@fontsource-variable/noto-sans-arabic'
 
-function App() {
-  const [count, setCount] = useState(0)
-
+export function App() {
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+    <div className='mx-auto grid min-h-screen max-w-7xl place-items-center px-6 py-24 sm:py-32 lg:px-8'>
+      <div className='text-center'>
+        <img
+          src='/logo.svg'
+          alt='Athar Initiative, مبادرة أثر'
+          className='mx-auto h-28 w-auto'
+        />
+
+        <p className='mt-0 max-w-2xl text-sm/8 text-pretty text-gray-700'>
+          مبادرة أثر من طرف{' '}
+          <a
+            href='https://ghaytcharity.com/'
+            target='_blank'
+            className='text-gray-800 underline underline-offset-4 transition-colors hover:text-gray-950'
+          >
+            جمعية غيت الخيرية
+          </a>
         </p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    </div>
   )
 }
-
-export default App
