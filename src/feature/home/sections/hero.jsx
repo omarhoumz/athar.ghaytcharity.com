@@ -1,6 +1,6 @@
 import { CtaAction } from '../../../components/layout/header'
 
-export default function Hero() {
+export function Hero() {
   return (
     <section className='relative isolate px-6 pt-14 text-white lg:px-8'>
       <div className='absolute inset-0 bg-[url("/hero-bg.jpg")] bg-cover' />
