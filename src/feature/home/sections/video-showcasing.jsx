@@ -1,6 +1,7 @@
 import { IconPlayerPlayFilled } from '@tabler/icons-react'
 import { useState } from 'react'
 import { Helmet } from 'react-helmet'
+import { CtaAction } from '../../../components/layout/header'
 
 export function VideoShowcasing() {
   const [triggerPlay, setTriggerPlay] = useState(false)
@@ -53,6 +54,10 @@ export function VideoShowcasing() {
             </div>
           )}
         </div>
+
+        <CtaAction className='mt-6 px-10 py-3 text-lg font-medium'>
+          شاهد، شارك، وتبرع الآن
+        </CtaAction>
       </div>
     </section>
   )

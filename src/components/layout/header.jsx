@@ -27,7 +27,7 @@ const companyLogoElement = (
 export function CtaAction({ className, children = 'تبرع الآن' }) {
   return (
     <a
-      href='#'
+      href='#!'
       className={cn(
         'rounded-full bg-blue-600 px-6 py-2 text-sm font-semibold text-white shadow-xs hover:bg-blue-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600',
         className,
