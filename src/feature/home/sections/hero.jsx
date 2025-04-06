@@ -1,3 +1,4 @@
+import { IconDroplet } from '@tabler/icons-react'
 import { CtaAction } from '../../../components/layout/header'
 
 export function Hero() {
@@ -7,6 +8,10 @@ export function Hero() {
       <div className='absolute inset-0 bg-gradient-to-b from-[#1E3A8A]/10 via-[#1E3A8A]/40 via-20% to-[#172554]/70 to-70%' />
 
       <div className='relative mx-auto max-w-2xl py-32 sm:py-48 lg:py-56'>
+        <div className='mb-8 flex justify-center'>
+          <IconDroplet className='size-20' />
+        </div>
+
         <div className='text-center'>
           <h1 className='text-5xl font-semibold tracking-tight text-balance text-white sm:text-7xl'>
             قطرة تغيّر الحياة
