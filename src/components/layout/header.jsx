@@ -14,7 +14,13 @@ const navigation = [
 const companyLogoElement = (
   <a href='#' className='-m-1.5 p-1.5'>
     <span className='sr-only'>Athar initiative, مبادرة أثر</span>
-    <img alt='' src='/logo.svg' className='h-12 w-auto' />
+    <img
+      alt=''
+      src='/logo.svg'
+      className='h-12 w-auto'
+      height={48}
+      width={148}
+    />
   </a>
 )
 
