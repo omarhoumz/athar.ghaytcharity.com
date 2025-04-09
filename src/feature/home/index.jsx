@@ -1,4 +1,5 @@
 import { LayoutDefault } from '../../components/layout/layout-default'
+import { Donate } from './sections/donate'
 import { Hero } from './sections/hero'
 import { Project } from './sections/project'
 import { StatusQuo } from './sections/status-quo'
@@ -14,6 +15,8 @@ export function Home() {
       <Project />
 
       <VideoShowcasing />
+
+      <Donate />
     </LayoutDefault>
   )
 }
