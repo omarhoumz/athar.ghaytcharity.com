@@ -3,7 +3,7 @@ import { cn } from '../../../utils/cn'
 
 export function Donate() {
   return (
-    <section className='bg-[#EFF6FF] px-6 py-20 md:px-10 md:py-28'>
+    <section className='bg-gradient-to-b from-[#EFF6FF] to-[#ECFEFF] px-6 py-20 md:px-10 md:py-28'>
       <div className='mx-auto max-w-6xl space-y-12'>
         <div className='flex flex-col items-center gap-4'>
           <div className='rounded-full bg-blue-100 px-4 py-1.5 text-blue-900'>
@@ -50,7 +50,7 @@ export function Donate() {
           </div>
         </div>
 
-        <div className='flex items-center justify-center gap-4'>
+        <div className='flex flex-wrap items-center justify-center gap-3 md:gap-4'>
           <Button icon={<IconShare />}>أرغب في دعم الحملة إعلاميا</Button>
           <Button icon={<IconHeart />} outlined>
             أريد المساهمة بوسيلة أخرى
