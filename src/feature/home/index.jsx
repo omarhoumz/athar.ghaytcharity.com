@@ -1,4 +1,5 @@
 import { LayoutDefault } from '../../components/layout/layout-default'
+import { AboutUs } from './sections/about-us'
 import { Articles } from './sections/articles'
 import { Donate } from './sections/donate'
 import { Hero } from './sections/hero'
@@ -23,6 +24,8 @@ export function Home() {
       <Articles />
 
       <Partners />
+
+      <AboutUs />
     </LayoutDefault>
   )
 }
