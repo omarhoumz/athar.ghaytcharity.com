@@ -9,7 +9,7 @@ export function Donate() {
           <div className='rounded-full bg-blue-100 px-4 py-1.5 text-blue-900'>
             تبرع الآن
           </div>
-          <h3 className='text-4xl font-bold text-gray-800'>
+          <h3 className='text-center text-4xl font-bold text-gray-800'>
             حان الوقت لنحدث الفرق
           </h3>
           <p className='max-w-2xl text-center text-lg text-pretty text-gray-600'>
@@ -35,9 +35,9 @@ export function Donate() {
               return (
                 <div
                   key={index}
-                  className='flex gap-3 rounded bg-gray-100 p-3 text-lg'
+                  className='flex flex-col gap-3 rounded bg-gray-100 p-3 text-lg md:flex-row'
                 >
-                  <div className='min-w-36 font-bold'>{label}</div>
+                  <div className='font-bold md:min-w-36'>{label}</div>
                   <div className='flex-1 text-gray-600'>{value}</div>
                 </div>
               )

@@ -6,7 +6,7 @@ export function Articles() {
           <div className='rounded-full bg-blue-100 px-4 py-1.5 text-blue-900'>
             تأثير مشروعنا
           </div>
-          <h3 className='text-4xl font-bold text-gray-800'>
+          <h3 className='text-center text-4xl font-bold text-gray-800'>
             كيف يمكن لبئرٍ واحد أن يغيّر كل شيء؟
           </h3>
           <p className='max-w-2xl text-center text-lg text-pretty text-gray-600'>
